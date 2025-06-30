@@ -25,7 +25,9 @@ ProyectoTesis/
 
 ## Descripción
 
-La aplicación permite gestionar activos, almacenando información relevante como tipo, nombre, ubicación, cantidad y código. Utiliza Django como framework principal y organiza la lógica en una app llamada `activos`.
+La aplicación permite gestionar activos, almacenando información relevante como tipo, nombre, ubicación, cantidad y código. Utiliza Django como framework principal y organiza la lógica en una app llamada `activos`. 
+
+El frontend está construido con templates HTML y utiliza el framework de estilos Bootstrap para una interfaz moderna y responsiva.
 
 ## Instalación
 
@@ -63,32 +65,31 @@ La aplicación permite gestionar activos, almacenando información relevante com
 
 El proyecto sigue una arquitectura modular:
 - **Backend:** Django, app `activos`, base de datos SQLite.
-- **Frontend:** Templates HTML.
+- **Frontend:** Templates HTML con Bootstrap.
 - **Datos:** Archivos CSV y Excel.
 
 ## Diagrama de Arquitectura
 
-El diagrama de arquitectura se encuentra a continuación en formato PlantUML:
+El diagrama de arquitectura se encuentra a continuación en formato PlantUML (puedes copiarlo y visualizarlo en PlantUML Online Server):
 
 ```plantuml
 @startuml
-!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+actor Usuario as user
 
-Person(user, "Usuario", "Interactúa con la plataforma de gestión de activos")
-System_Boundary(s1, "ProyectoTesis") {
-  Container(web, "Frontend (HTML)", "HTML", "Interfaz de usuario basada en templates")
-  Container(api, "Backend (Django)", "Python/Django", "Lógica de negocio y API")
-  ContainerDb(db, "Base de Datos", "SQLite", "Almacena información de activos")
-  Container(data, "Archivos de Datos", "CSV/Excel", "Importación y exportación de datos")
+package "ProyectoTesis" {
+  [Frontend (HTML + Bootstrap)] as frontend
+  [Backend (Django)] as backend
+  [Base de Datos (SQLite)] as db
+  [Archivos de Datos (CSV/Excel)] as data
 }
-Rel(user, web, "Usa")
-Rel(web, api, "Solicita datos y operaciones")
-Rel(api, db, "Lee/Escribe")
-Rel(api, data, "Importa/Exporta")
+
+user --> frontend : Usa la interfaz web
+frontend --> backend : Envía solicitudes HTTP
+backend --> db : Lee/Escribe datos de activos
+backend --> data : Importa/Exporta datos
+
 @enduml
 ```
-
-Puedes visualizar este diagrama en [PlantUML Online Server](https://www.plantuml.com/plantuml/).
 
 ---
 

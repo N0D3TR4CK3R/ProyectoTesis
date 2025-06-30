@@ -1,0 +1,14 @@
+ProyectoTesis/
+│
+├── backend/         # Proyecto Django
+│   ├── manage.py
+│   ├── ... (archivos Django)
+│
+├── frontend/        # Archivos estáticos y templates
+│   ├── static/
+│   ├── templates/
+│   └── ... (HTML, CSS, JS)
+│
+├── MatrizDeRiesgos.xlsx
+├── README.md
+└── requirements.txt

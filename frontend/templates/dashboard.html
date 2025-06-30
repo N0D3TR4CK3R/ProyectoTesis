@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Activos Importantes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <h1 class="mb-0">Dashboard de Activos Importantes</h1>
+            <span id="backend-status" class="badge bg-secondary">Verificando backend...</span>
+        </div>
+        <div id="dashboard">
+            <table class="table table-striped" id="tabla-activos">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th>Ubication</th>
+                        <th>Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se llenarán dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <h2>Predicciones (Próximamente)</h2>
+            <p>Este espacio estará reservado para mostrar predicciones y análisis de los activos.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Verificar estado del backend
+        fetch('/api/health/')
+            .then(response => response.ok ? response.json() : Promise.reject())
+            .then(data => {
+                const badge = document.getElementById('backend-status');
+                badge.textContent = 'Backend online';
+                badge.className = 'badge bg-success';
+            })
+            .catch(() => {
+                const badge = document.getElementById('backend-status');
+                badge.textContent = 'Backend offline';
+                badge.className = 'badge bg-danger';
+            });
+        // Código JS para cargar los datos desde la API
+        fetch('/api/activos-excel/')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.querySelector('#tabla-activos tbody');
+                tbody.innerHTML = '';
+                data.forEach(activo => {
+                    const row = `<tr>
+                        <td>${activo['type'] || ''}</td>
+                        <td>${activo['name'] || ''}</td>
+                        <td>${activo['ubication'] || ''}</td>
+                        <td>${activo['code'] || ''}</td>
+                    </tr>`;
+                    tbody.innerHTML += row;
+                });
+            });
+    </script>
+</body>
+</html> 

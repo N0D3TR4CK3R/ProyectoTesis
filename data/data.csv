@@ -1,0 +1,182 @@
+type,name,ubication,code
+"Activo de información
+(Datos de clientes, datos de proveedores, Documentos Físicos, 
+manuales. Inventarios de hardware, contratos con terceros, otros)",Bases de datos,CLOUD,01CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",PROXMOX,MC,02MC
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",WINDOWS SERVER,CLOUD,01CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",WINDOWS SERVER,CLOUD,02CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",WINDOWS SERVER,CLOUD,03CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",SISTEMA DE GESTIÓN ACADÉMICA,CLOUD,04CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Protal Docente,CLOUD,05CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Portal Alumnos,CLOUD,06CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Portal Adminisiones,CLOUD,07CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Portal Inglés,CLOUD,08CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Portal Becas,CLOUD,09CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Canvas,CLOUD,10CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",SGI - Sistema de Gestión Integral,CLOUD,11CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Zeus,CLOUD,12CLOUD
+"Software y licencias
+(Software SO licenciado, Software ofimático licenciado, licencias 
+de uso de software en outsourcing, otras licencias)",Help Desk,CLOUD,13CLOUD
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",All in One,MC,01MC
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Desktop,MC,02MC
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Laptop,MC,03MC
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Mini PC,MC,04MC
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Control de Acceso ,MC,05MC
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",All in One,JM,06JM
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Desktop,JM,07JM
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Laptop,JM,08JM
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Mini PC,JM,09JM
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Control de Acceso ,JM,10JM
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",All in One,FS,11FS
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Desktop,FS,12FS
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Laptop,FS,13FS
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Mini PC,FS,14FS
+"Hardware
+(Dispositivos físicos como servidores, computadoras, impresoras, dispositivos móviles y otros equipos que se utilizan en la organización.)",Control de Acceso ,FS,15FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",ONT (Entrada Principal),MC,01MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Firewall Fortinet,MC,02MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Firewall SonicWall,MC,03MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Transceiver TP-Link,MC,04MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switch CORE,MC,05MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switch Data Center,MC,06MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switch de Biblioteca,MC,07MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switch de Docencia,MC,08MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switch Sala Profesores Nueva,MC,09MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switches de distribución,MC,10MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Switches de acceso,MC,11MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Racks de telecomunicaciones,MC,12MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Puntos de acceso WiFi,MC,13MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",Cámaras de seguridad,MC,14MC
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SWITCH CORE,JM,15JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)","SWITCH (E1P1SW, EIPB, etc.)*",JM,16JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",CONVERSOR PUNTONET,JM,17JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",FORTINET PUNTONET,JM,18JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SONICWALL,JM,19JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SRV ALMALINUX,JM,20JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SRV UNIFI,JM,21JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",WINSERVER 2008,JM,22JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",HIKVISION (Cámaras IP),JM,23JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SANGOMA - ISSABEL,JM,24JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",CAJA MULTIMEDIA PUNTO,JM,25JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",ONT PUNTONET PRINCIPAL,JM,26JM
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SWITCH CORE,FS,27FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)","SWITCH (RACK 1, TPLINK, HP)*",FS,28FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)","Acces Points (Aulas, Laboratorio, etc.)**",FS,29FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SERVER ISSABEL,FS,30FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",SONICWALL,FS,31FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",FORTINET PUNTONET,FS,32FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",ONT PUNTONET,FS,33FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",CAJA MULTIMEDIA PRINCIPAL,FS,34FS
+"Instalación de red
+(Infraestructura que incluye routers, switches, cables, puntos de acceso y otros dispositivos y elementos necesarios para la conectividad y comunicación de datos dentro de la organización.)",CONVERSORES,FS,35FS
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",UPS Power Protection ,MC,01MC
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",UPS Power Protection ,JM,02JM
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",UPS Power Protection ,FS,03FS
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",Power Strips,MC,04MC
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",Power Strips,JM,05JM
+"Instalación eléctrica
+(Sistemas y componentes eléctricos que proporcionan energía a los diferentes activos de la organización, como cables, generadores, UPS (sistemas de alimentación ininterrumpida) y tableros eléctricos.)",Power Strips,FS,06FS
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Administrativo,MC,01MC
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Docente,MC,02MC
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Estudiantes,MC,03MC
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Administrativo,JM,04JM
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Docente,JM,05JM
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Estudiantes,JM,06JM
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Administrativo,FS,07FS
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Personal Docente,FS,08FS
+"Personal
+(Empleados y colaboradores de la organización que tienen acceso y manejan diferentes activos. Esto incluye roles específicos, responsabilidades y niveles de acceso.)",Estudiantes,FS,09FS
+"Servicios de terceros
+(Servicios contratados a empresas externas que pueden incluir servicios de mantenimiento, soporte técnico, outsourcing de TI, servicios de nube y cualquier otro servicio externalizado.)",Correo Institucional Google Apps WorkSpace,CLOUD,01CLOUD
+"Servicios de terceros
+(Servicios contratados a empresas externas que pueden incluir servicios de mantenimiento, soporte técnico, outsourcing de TI, servicios de nube y cualquier otro servicio externalizado.)",Microsoft 365,CLOUD,02CLOUD
+"Servicios de terceros
+(Servicios contratados a empresas externas que pueden incluir servicios de mantenimiento, soporte técnico, outsourcing de TI, servicios de nube y cualquier otro servicio externalizado.)",ERP - Intermix,CLOUD,03CLOUD

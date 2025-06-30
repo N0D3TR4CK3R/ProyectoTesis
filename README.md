@@ -95,6 +95,37 @@ backend --> data : Importa/Exporta datos
 @enduml
 ```
 
+## Ciclo de Entregables y Revisiones en la Metodología en Cascada
+
+El siguiente diagrama ilustra cómo, en cada fase del ciclo en cascada, se generan entregables documentales que deben ser revisados y aprobados antes de avanzar. Si un entregable no es aprobado, el ciclo se reinicia desde la fase correspondiente. Esto asegura la calidad y el cumplimiento de los requisitos en cada etapa del desarrollo.
+
+```mermaid
+flowchart TD
+    A[Inicio del Proyecto] --> B[Análisis de Requisitos]
+    B --> C[Documento de Requisitos]
+    C --> D[Revisión y Aprobación de Requisitos]
+    D -->|Aprobado| E[Diseño]
+    D -->|No Aprobado| B
+    E --> F[Documento de Diseño]
+    F --> G[Revisión y Aprobación de Diseño]
+    G -->|Aprobado| H[Implementación]
+    G -->|No Aprobado| E
+    H --> I[Documento de Implementación]
+    I --> J[Revisión y Aprobación de Implementación]
+    J -->|Aprobado| K[Pruebas]
+    J -->|No Aprobado| H
+    K --> L[Documento de Pruebas]
+    L --> M[Revisión y Aprobación de Pruebas]
+    M -->|Aprobado| N[Despliegue y Mantenimiento]
+    M -->|No Aprobado| K
+    N --> O[Fin del Proyecto]
+    N -->|Nuevo Ciclo| B
+```
+
+## Metodología de Desarrollo
+
+Este proyecto utiliza la **metodología de desarrollo en cascada**, que se caracteriza por un proceso secuencial de fases: análisis de requisitos, diseño, implementación, pruebas, despliegue y mantenimiento. Cada fase debe completarse antes de pasar a la siguiente, asegurando un desarrollo estructurado y ordenado.
+
 ---
 
 Si tienes dudas o sugerencias, contacta al autor del repositorio. 

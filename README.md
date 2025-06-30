@@ -70,7 +70,11 @@ El proyecto sigue una arquitectura modular:
 
 ## Diagrama de Arquitectura
 
-El diagrama de arquitectura se encuentra a continuación en formato PlantUML (puedes copiarlo y visualizarlo en PlantUML Online Server):
+A continuación se muestra el diagrama de arquitectura generado:
+
+![Diagrama de Arquitectura](assets/diagramaArqui.png)
+
+También puedes encontrar el diagrama en formato PlantUML (puedes copiarlo y visualizarlo en PlantUML Online Server):
 
 ```plantuml
 @startuml

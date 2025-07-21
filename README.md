@@ -128,4 +128,36 @@ Este proyecto utiliza la **metodología de desarrollo en cascada**, que se carac
 
 ---
 
+## Cambios recientes y verificación de infraestructura
+
+### Instalación y configuración de dependencias
+- Se instalaron las dependencias principales del proyecto usando `pip install -r requirements.txt`.
+- Se verificó la instalación de Python 3.13+ y la correcta configuración del entorno virtual (opcional pero recomendado).
+- Se instalaron los paquetes: Django, Django REST Framework, pandas y openpyxl.
+
+### Conexión y migración de la base de datos SQLite
+- El proyecto utiliza SQLite como base de datos por defecto, configurada en `backend/config/settings.py`.
+- El modelo `Activo` está definido en `backend/activos/models.py` y representa la tabla principal de activos.
+- Se ejecutaron los comandos:
+  ```bash
+  cd backend
+  python manage.py makemigrations
+  python manage.py migrate
+  ```
+  para crear y aplicar las migraciones, generando la tabla `activos` en la base de datos.
+
+### Verificación de la infraestructura
+- Se levantó el servidor de desarrollo con:
+  ```bash
+  python manage.py runserver
+  ```
+- Se verificó el acceso a la aplicación en `http://127.0.0.1:8000/` y la disponibilidad de la tabla `activos` en el panel de administración (`/admin`).
+
+### Notas adicionales
+- Si necesitas crear un superusuario para acceder al panel de administración, ejecuta:
+  ```bash
+  python manage.py createsuperuser
+  ```
+- Bootstrap puede integrarse fácilmente en el frontend agregando el CDN en los templates HTML.
+
 Si tienes dudas o sugerencias, contacta al autor del repositorio. 

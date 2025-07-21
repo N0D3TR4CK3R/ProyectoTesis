@@ -47,6 +47,8 @@ El frontend está construido con templates HTML y utiliza el framework de estilo
 3. Instala las dependencias:
    ```bash
    pip install -r requirements.txt
+   # Dependencias adicionales para OAuth:
+   pip install requests pyjwt cryptography
    ```
 4. Aplica migraciones y ejecuta el servidor:
    ```bash
@@ -54,6 +56,13 @@ El frontend está construido con templates HTML y utiliza el framework de estilo
    python manage.py migrate
    python manage.py runserver
    ```
+
+## Autenticación OAuth
+
+El proyecto soporta autenticación OAuth mediante Google usando django-allauth. Para configurarlo:
+- Crea un proyecto en Google Developers Console y obtén el Client ID y Client Secret.
+- Registra la aplicación en el admin de Django (sección Social Applications).
+- Accede a `/accounts/login/` para probar el flujo de autenticación.
 
 ## Uso
 
@@ -74,7 +83,7 @@ A continuación se muestra el diagrama de arquitectura actualizado:
 
 ![Diagrama de Arquitectura](assets/Arq_Diagram.png)
 
-> **Nota:** El VPS está planeado para ser desplegado en la nube gratuita de Azure, lo que permitirá acceso remoto, escalabilidad y pruebas sin costo inicial. Los nodos adicionales pueden representar servicios futuros o integraciones.
+> **Nota:** El diagrama Mermaid detallado se encuentra en `assets/diagrama_mermaid.txt` para referencia y edición futura.
 
 ## Ciclo de Entregables y Revisiones en la Metodología en Cascada
 

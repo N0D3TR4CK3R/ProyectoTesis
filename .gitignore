@@ -1,0 +1,14 @@
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar base de datos local
+backend/db.sqlite3
+
+# Ignorar archivos de entorno virtual
+venv/
+.env 
+assets/diagrama_mermaid.txt
+POR_HACER.txt 

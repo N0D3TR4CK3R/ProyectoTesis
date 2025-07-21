@@ -70,30 +70,11 @@ El proyecto sigue una arquitectura modular:
 
 ## Diagrama de Arquitectura
 
-A continuación se muestra el diagrama de arquitectura generado:
+A continuación se muestra el diagrama de arquitectura actualizado:
 
-![Diagrama de Arquitectura](assets/diagramaArqui.png)
+![Diagrama de Arquitectura](assets/Arq_Diagram.png)
 
-También puedes encontrar el diagrama en formato PlantUML (puedes copiarlo y visualizarlo en PlantUML Online Server):
-
-```plantuml
-@startuml
-actor Usuario as user
-
-package "ProyectoTesis" {
-  [Frontend (HTML + Bootstrap)] as frontend
-  [Backend (Django)] as backend
-  [Base de Datos (SQLite)] as db
-  [Archivos de Datos (CSV/Excel)] as data
-}
-
-user --> frontend : Usa la interfaz web
-frontend --> backend : Envía solicitudes HTTP
-backend --> db : Lee/Escribe datos de activos
-backend --> data : Importa/Exporta datos
-
-@enduml
-```
+> **Nota:** El VPS está planeado para ser desplegado en la nube gratuita de Azure, lo que permitirá acceso remoto, escalabilidad y pruebas sin costo inicial. Los nodos adicionales pueden representar servicios futuros o integraciones.
 
 ## Ciclo de Entregables y Revisiones en la Metodología en Cascada
 

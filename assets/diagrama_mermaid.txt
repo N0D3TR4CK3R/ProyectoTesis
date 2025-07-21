@@ -1,0 +1,14 @@
+flowchart TD
+    user["Usuario Final"] -- Acceso web --> browser["Navegador Web"]
+    browser --> frontend["Frontend: HTML + Bootstrap"]
+    frontend -- Solicitudes HTTP/HTTPS --> backend["Backend: Django + API REST"]
+    backend --> auth["Módulo de Autenticación"]
+    backend --> db[("Base de Datos SQLite/PostgreSQL")]
+    backend --> files[["Archivos CSV/Excel/Backups"]]
+    backend --> panel["Panel de Administración"]
+    admin["Administrador"] -- Gestión --> panel
+    cloud["Nube - VPS (Azure, gratuito, tentativo)"] --> backend
+    cloud --> db
+    cloud --> files
+    cloud --> n1["(Espacio para futuros servicios)"]
+    cloud --> n2["(Escalabilidad, backups, etc.)"] 
